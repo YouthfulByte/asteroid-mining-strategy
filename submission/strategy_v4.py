@@ -14,7 +14,7 @@ def load_model():
     import joblib
     import os
     model_dir = os.path.dirname(os.path.abspath(__file__))
-    return joblib.load(os.path.join(model_dir, "model.joblib"))
+    return joblib.load(os.path.join(model_dir, "model_v4.joblib"))
 
 
 def price_asteroids(asteroids, capital, round_info, model=None):
